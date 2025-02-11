@@ -148,9 +148,6 @@ int main()
 	SetConsoleTextAttribute(hConsole, 8);
 	cout<<"d: Diamond"<<endl;
 	Sleep(400);
-	SetConsoleTextAttribute(hConsole, 5);
-	cout<<"c: Circle"<<endl;
-	Sleep(400);
 	SetConsoleTextAttribute(hConsole, 6);
 	cout<<"p: Parallelogram"<<endl;
 	Sleep(400);
@@ -174,18 +171,6 @@ int main()
 	SetConsoleTextAttribute(hConsole, color);
 	switch(shape)
 	{	
-		case 'c':
-			cout<<"			@@@@@@@@@@\n";       
-			cout<<"		    @@@@@@@@@@@@@@@\n";    
-			cout<<"		   @@@@@@@@@@@@@@@@@\n";   
-			cout<<"		  @@@@@@@@@@@@@@@@@@@\n";  
-			cout<<"		  @@@@@@@@@@@@@@@@@@@\n";  
-			cout<<"		  @@@@@@@@@@@@@@@@@@@\n";  
-			cout<<"		  @@@@@@@@@@@@@@@@@@@\n";  
-			cout<<"		   @@@@@@@@@@@@@@@@@\n";   
-			cout<<"		    @@@@@@@@@@@@@@@\n";    
-			cout<<"		      @@@@@@@@@@\n";
-			break;
 		case 'r':
 			cout<<"Width: ";
 			cin>>w;
